@@ -1,6 +1,6 @@
 const express = require('express');
 
-const app = express();
+const app = express()
 
 //link route
 app.get('/hello/:name/:age', (req, res) => {
@@ -13,4 +13,8 @@ app.get('/hello/:name/:age', (req, res) => {
 
 app.get('/tinh/:tenPhepTinh/:soA/:soB', require('./controllers/tinhController')
 )
-app.listen(3000)
+
+app.get('*',(req, res) => {
+    res.send("Not found");
+})
+app.listen(3000, () => console.log('Server started'))
