@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LongPeo/express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LongPeo/express/issues"
+  },
+  "homepage": "https://github.com/LongPeo/express#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
